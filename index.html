@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ATM.css">
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1a73e8">
+
+</head>
+<body>
+    <div id="outer">
+    <h1>Welcome To ATM</h1>  
+   <div style="text-align: center;"><b>If you are new user:</b><a href="Pin.html"><button id="setPin">Set ATM PIN</button></a></div><br><br>
+   <div style="text-align: center;"><b>If you have ATM:</b><a href="login.html"><button id="Ok">Ok</button></a></div>
+   </div>
+   <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+  }
+</script>
+
+</body>
+</html>                                   

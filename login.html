@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ATM.css">
+       
+</head>
+<body>
+    
+    <div class="container" id="con">
+        <input type="text" placeholder="Enter Your ATM PIN" size="70" id="pin" class="input">
+        <button id="login">Submit</button>
+        <table border="2" cellspacing="0"  height="300" align="center">
+            <tr>
+                <td><button class="num">7</button></td>
+                <td><button class="num">8</button></td>
+                <td><button class="num">9</button></td>
+            </tr>
+            <tr>
+                <td><button class="num">4</button></td>
+                <td><button class="num">5</button></td>
+                <td><button class="num">6</button></td>
+            </tr>
+            <tr>
+                <td><button class="num">1</button></td>
+                <td><button class="num">2</button></td>
+                <td><button class="num">3</button></td>
+            </tr>
+            <tr>
+                <td><button class="num"><-</button></td>
+                <td><button class="num">0</button></td>
+                <td><button class="num">00</button></td>
+            </tr>
+        </table>
+        <a href="index.html"><Button id="back">Back to Home</Button></a>
+       
+    </div>
+
+     <div id="oper" style="display:none;">
+            <div class="operations">
+                <button id="credit" class="btn">Credit</button>
+                <button id="debit" class="btn">Debit</button>
+                 <button id="check" class="btn">CheckBalance</button>
+            </div>
+            </div>
+
+<div class="container" id="deposit" style="display: none;">
+        <input type="text" placeholder="Enter deposit amount" size="70" id="amount" class="input">
+        <button id="dsubmit">Submit</button>
+        <table border="2" cellspacing="0"  height="300" align="center" id="dtable">
+            <tr>
+                <td><button class="num">7</button></td>
+                <td><button class="num">8</button></td>
+                <td><button class="num">9</button></td>
+            </tr>
+            <tr>
+                <td><button class="num">4</button></td>
+                <td><button class="num">5</button></td>
+                <td><button class="num">6</button></td>
+            </tr>
+            <tr>
+                <td><button class="num">1</button></td>
+                <td><button class="num">2</button></td>
+                <td><button class="num">3</button></td>
+            </tr>
+            <tr>
+                <td><button class="num"><-</button></td>
+                <td><button class="num">0</button></td>
+                <td><button class="num">00</button></td>
+            </tr>
+        </table>
+        </div>
+        <h1 style="text-align: center;" id="message"></h1>
+        <p></p>
+    <script src="login.js"></script>
+</body>
+</html>
